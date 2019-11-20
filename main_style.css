@@ -1,0 +1,44 @@
+.logo{
+    width: 10px;
+    height: 10px;
+    border: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    background-image: url("Images/wedding_sea_mood_54198_1600x900.jpg");
+    background-repeat: no-repeat;
+    
+}
+.gallery{
+    width: 50%;
+    align-content: center;
+}
+section{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+th{
+   width: 20%; 
+}
+h1,h2,p{
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
+}
+@font-face {
+  font-family: 'trashco';
+  src: url('Font/trashco.ttf') format('truetype');
+}
+.nav{
+    font-size: 40px;
+    font-family: 'trashco',fallback,sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+a { text-decoration: none; color: black;}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+    
